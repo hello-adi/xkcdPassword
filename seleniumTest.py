@@ -16,6 +16,7 @@ search = driver.find_element(By.ID, "prompt")
 search.send_keys("kanye best album")
 search.send_keys(Keys.RETURN)
 
+# screenshot button can be accessed by label
 # print(driver.page_source)
 
 time.sleep(120)
